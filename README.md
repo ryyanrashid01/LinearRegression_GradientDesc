@@ -40,8 +40,8 @@ def loss_fn(y, yhat):
        """
 ```
 
-Display the training loss value for each epoch of the training loop.
-Display the estimated weights (after model training).
-Display the training loss against epoch graph (after model training).
-Evaluate the linear regression model with the estimated weights on the test set and display at least R-squared and mean squared error measures.
-Document the codes using markdown and comments.
+Display the training loss value for each epoch of the training loop.<br />
+Display the estimated weights (after model training).<br />
+Display the training loss against epoch graph (after model training).<br />
+Evaluate the linear regression model with the estimated weights on the test set and display at least R-squared and mean squared error measures.<br />
+Document the codes using markdown and comments.<br />
