@@ -1,11 +1,12 @@
-# CPC251 Linear Regression Gradient Descent
+# Linear Regression Gradient Descent
 
-##### Description and Requirements
-This is a group assignment. In the assignment, you are given a dataset. The dataset is available in eLearn@USM. You need to implement the gradient descent algorithm to estimate (train) the weights of the linear regression model. You must use Python programming language with Jupyter Notebook.
-Split the given dataset into two training and test with a ratio of 8:2. Use the training set to estimate the weights and the test set to evaluate the linear regression model with the estimated weights.
+### Description
+We are given a dataset. We need to implement the gradient descent algorithm to estimate (train) the weights of the linear regression model. We have used Python programming language with Jupyter Notebook.
 
+### Requirements
+<ol>
+<li>Define at least three (3) functions as follows</li>
 
-##### Define at least three (3) functions as follows
 ```
 def train_model(X, y, alpha, max_epoch):
        """ Pass four arguments
@@ -40,8 +41,8 @@ def loss_fn(y, yhat):
        """
 ```
 
-Display the training loss value for each epoch of the training loop.<br />
-Display the estimated weights (after model training).<br />
-Display the training loss against epoch graph (after model training).<br />
-Evaluate the linear regression model with the estimated weights on the test set and display at least R-squared and mean squared error measures.<br />
-Document the codes using markdown and comments.<br />
+<li>Display the training loss value for each epoch of the training loop.</li>
+<li>Display the estimated weights (after model training).</li>
+<li>Display the training loss against epoch graph (after model training).</li>
+<li>Evaluate the linear regression model with the estimated weights on the test set and display at least R-squared and mean squared error measures.</li>
+</ol>
